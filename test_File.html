@@ -1,0 +1,160 @@
+<html><title>Homepage</title>
+<!--Refreshes the page every 3 minutes-->
+<meta https-equiv = "Refresh" content = "180">
+
+
+<!--No fucking clue how this works lmao I just copied and pasted this -->
+<style>
+    
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    
+    .buttondis {background-color = #000000}
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 5%;
+  padding: 3px;
+    }
+    
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4d0099;
+  color: white;
+}
+    
+.column {
+    color: #999999
+    }
+    
+.side {
+    color: #999999
+    }
+    
+aside {
+  width: 12%;
+  padding-left: 4px;
+  margin-top: 25px;
+  margin-right: 2px;
+  float: right;
+  background-color: #333;
+  overflow: hidden;
+}
+
+embed{
+    position: absolute;
+    top: 128;
+    left: 5;
+    color: #999999
+    }
+
+</style>
+<div class="topnav">
+  <a class="active" href="https://www.atmos.albany.edu/student/abirnbaum/index.html">Home</a>
+  <a href="https://www.atmos.albany.edu/student/abirnbaum/solar.html">Solar Images</a>
+</div>
+    
+    
+<body bgcolor=#000000>
+    
+    <!-- Aurora forecast stuff -->
+    <div class = 'row'>
+        
+        <aside>
+
+            <h4 class='side'>Solar Proton flux is currently:</h4>
+            <embed class='flux' src='https://www.atmos.albany.edu/student/abirnbaum/proton_flux.txt'>
+        </aside>
+        <div class = "column">
+            <h2> Aurora Forecast for Northern Hemisphere: </h2>
+            <img src = "https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg" width = 95%>
+            <!-- <center><img src="https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg"></img></center> -->   
+        </div>
+    
+
+        <div class = 'column'>
+            <h2> Aurora Forecast for Southern Hemisphere: </h2>
+            <img src = "https://services.swpc.noaa.gov/images/animations/ovation/south/latest.jpg" width = 95%>
+            
+        </div>
+        <hr>
+    </div>
+    </body>
+    
+    
+    
+<body>
+    <div class = 'row'>
+        <div class = "column">
+            <h2> Current View of the Sun: </h2>
+            <video width=95% loop>
+                <source src="https://soho.nascom.nasa.gov/data/LATEST/current_hmi_igr.mp4" type="video/mp4">
+            </video>
+            <!-- <center><img src="https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg"></img></center> -->   
+        </div>
+    
+        <div class = 'column'>
+            <h2> HMI Magnetogram: </h2>
+            <img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_HMIBC.jpg" width=95%>
+            
+        </div>
+        <hr>
+    </div>
+
+<body>
+    <div class = 'row'>
+        <div class = "column">
+            <h2> SDO 193(Coronal Holes): </h2>
+            <img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0193.jpg" width=95%>
+            <!-- <center><img src="https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg"></img></center> -->   
+        </div>
+    
+        <div class = 'column'>
+            <h2> SDO 211(Coronal Holes): </h2>
+            <img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0211.jpg" width=95%>
+            
+        </div>
+        <hr>
+    </div>
+    </body>
+    
+</body></html>

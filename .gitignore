@@ -1,0 +1,9 @@
+.*
+!.gitignore
+*.out
+*.png
+pyscripttest.html
+test.py
+website_template.html
+*.json
+untitled*
