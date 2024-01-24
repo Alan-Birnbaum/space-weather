@@ -36,14 +36,14 @@
     
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #969292;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -67,7 +67,7 @@
     }
     
 .side {
-    color: #999999
+    color: #000000
     }
     
 aside {
@@ -76,11 +76,11 @@ aside {
   margin-top: 25px;
   margin-right: 2px;
   float: right;
-  background-color: #333;
+  background-color: #969292;
   overflow: hidden;
 }
 
-embed{
+.flux{
     position: absolute;
     top: 128;
     left: 5;
@@ -91,6 +91,7 @@ embed{
 <div class="topnav">
   <a class="active" href="https://www.atmos.albany.edu/student/abirnbaum/index.html">Home</a>
   <a href="https://www.atmos.albany.edu/student/abirnbaum/solar.html">Solar Images</a>
+  <a href="https://www.atmos.albany.edu/student/abirnbaum/discussion.html" >SWPC Discussion</a>
 </div>
     
     
@@ -103,6 +104,8 @@ embed{
 
             <h4 class='side'>Solar Proton flux is currently:</h4>
             <embed class='flux' src='https://www.atmos.albany.edu/student/abirnbaum/proton_flux.txt'>
+            
+            <script type="module", src="solarwind.js"></script>
         </aside>
         <div class = "column">
             <h2> Aurora Forecast for Northern Hemisphere: </h2>
@@ -143,8 +146,8 @@ embed{
 <body>
     <div class = 'row'>
         <div class = "column">
-            <h2> SDO 193(Coronal Holes): </h2>
-            <img src="https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0193.jpg" width=95%>
+            <h2> Solar Wind: </h2>
+            <embed class='swind' src='https://www.atmos.albany.edu/student/abirnbaum/Solar_Wind.png' width=100%>
             <!-- <center><img src="https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg"></img></center> -->   
         </div>
     
