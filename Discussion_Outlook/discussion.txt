@@ -1,0 +1,66 @@
+:Product: Forecast Discussion
+:Issued: 2024 Jan 24 1230 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+#
+Solar Activity
+
+.24 hr Summary...
+Solar activity was at high levels with several M-class flares observed.
+Region 3559 (N27W09, Fki/beta-gamma) continued to be the largest spot
+group on the visible disk. Region 3561 (S17W48, Dac/beta-gamma) gained
+additional spots and was responsible for the majority of the M-class
+flare activity, the largest of which was an M4.3 at 23/1640 UTC. The
+rest of the ARs were unremarkable in comparison and relatively quiet.
+
+Two CMEs of note originated from AR 3561 this period. The first was
+first observed in NASA C2 coronagraph imagery at approximately 23/1724.
+Modeling of this event suggests an Earth-directed component with an
+arrival of 27 Jan. The second was first observed in NASA C2 coronagraph
+imagery at approximately 24/0136 UTC. This event was modeled and
+returned as a miss ahead of Earths orbit.
+
+.Forecast...
+Solar activity will likely continue at high levels, with M-class flares
+expected and a slight chance for X-class flares, through 26 Jan
+primarily due to the flare potential of ARs 3559 and 3561.
+
+Energetic Particle
+
+.24 hr Summary...
+The greater than 2 MeV electron flux was at normal to moderate levels.
+The greater than 10 MeV proton flux decreased to near-background levels.
+
+.Forecast...
+The greater than 2 MeV electron flux is expected to be at normal to
+moderate levels on 24-26 Jan.
+
+Theres a slight chance for the greater than 10 MeV proton flux to reach
+S1 (Minor) threshold through 26 Jan - primarily due to the potential and
+favorable location of AR 3561.
+
+
+.24 hr Summary...
+Solar wind parameters became somewhat disturbed and enhanced; possibly
+due to near-Earth transient influences. Total field reached peaks of 8
+nT, and the Bz component underwent a prolonged southward deflection of
+-5 to -6 nT from approximately 23/2310-24/0429 UTC. Wind speeds
+gradually increased from near 400 km/s to ~455 km/s. Phi became
+predominantly negative at 24/1936 UTC.
+
+.Forecast...
+The solar wind environment is likely to be periodically enhanced on
+24-26 Jan due to the possibility of passage of multiple CMEs from 20 and
+22-23 Jan.
+
+Geospace
+
+.24 hr Summary...
+The geomagnetic field was quiet to unsettled with an isolated active
+period.
+
+.Forecast...
+Periods of G1 (Minor) geomagnetic storms are likely, with a chance of
+isolated G2 (Moderate) storm periods on 24-26 Jan due to the possible
+impacts of several nearby passing CMEs. The first of these transients
+was from a filament eruption on 20 Jan, while the rest of the CMEs were
+from several events on 22-23 Jan.

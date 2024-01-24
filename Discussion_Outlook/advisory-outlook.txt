@@ -1,0 +1,24 @@
+:Product: Advisory Outlook advisory-outlook.txt
+:Issued: 2024 Jan 22 0520 UTC
+#
+# Prepared by the Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov
+#-------------------------------------------------------------------------
+Official Space Weather Advisory issued by NOAA Space Weather Prediction Center
+Boulder, Colorado, USA
+
+SPACE WEATHER ADVISORY OUTLOOK #24-4
+2024 January 21 at 10:17 p.m. MST (2024 January 22 0517 UTC)
+
+**** SPACE WEATHER OUTLOOK ****
+
+Summary For January 15-21
+
+No significant space weather activity occurred.
+
+Outlook For January 22-28
+
+There is an increased chance for R1-R2 (Minor-Moderate) radio blackouts due to the flare potential of Region 3559.
+
+G1-G2 (Minor-Moderate) geomagnetic storming is likely on 22-23 Jan due to effects from CMEs that left the Sun on 20 Jan.
+

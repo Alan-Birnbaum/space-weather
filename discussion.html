@@ -1,0 +1,116 @@
+<html><title>Discussions</title>
+<!--Refreshes the page every 3 minutes-->
+<meta https-equiv = "Refresh" content = "180">
+
+<style>
+    
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    
+    .buttondis {background-color = #000000}
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 5%;
+  padding: 3px;
+    }
+    
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #969292;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4d0099;
+  color: white;
+}
+    
+.column {
+    color: #999999
+    }
+    
+.side {
+    color: #000000
+    }
+    
+aside {
+  width: 12%;
+  padding-left: 4px;
+  margin-top: 25px;
+  margin-right: 2px;
+  float: right;
+  background-color: #969292;
+  overflow: hidden;
+}
+
+.flux{
+    position: absolute;
+    top: 128;
+    left: 5;
+    color: #999999
+    }
+.disc {width: 45%;
+        height: 500;
+        position: absolute;
+        left: 25}
+.out {width: 45%;
+        height: 500;
+        position: absolute;
+        left: 725}
+
+</style>
+<body bgcolor=#ddd>
+<div class="topnav">
+  <a href="https://www.atmos.albany.edu/student/abirnbaum/index.html">Home</a>
+  <a href="https://www.atmos.albany.edu/student/abirnbaum/solar.html">Solar Images</a>
+  <a class = "active" href="https://www.atmos.albany.edu/student/abirnbaum/discussion.html" >SWPC Discussion</a>
+</div>
+
+
+    
+    <object class='disc' data="https://www.atmos.albany.edu/student/abirnbaum/Discussion_Outlook/discussion.txt"></object>
+    <object class ='out' data="https://www.atmos.albany.edu/student/abirnbaum/Discussion_Outlook/advisory-outlook.txt"></object>
+</body>
+<!-- script>
+    var frame = document.getElementById("myFrame");
+        frame.onload = function() {
+            var body = frame.contentWindow.document.querySelector('body');
+            body.style.color = 'white';
+        };
+</script -->
+</html>
