@@ -1,6 +1,6 @@
 <html><title>Discussions</title>
 <!--Refreshes the page every 3 minutes-->
-<meta https-equiv = "Refresh" content = "180">
+<meta https-equiv = "Refresh" content = "60">
 
 <style>
     
@@ -84,15 +84,20 @@ aside {
     left: 5;
     color: #999999
     }
-.disc {width: 45%;
-        height: 500;
-        position: absolute;
-        left: 25}
-.out {width: 45%;
-        height: 500;
-        position: absolute;
-        left: 725}
-
+.disc{
+    width: 95%;
+    height: 700%}
+.out{
+    width: 95%;
+    height: 700%
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 5%;
+  padding: 3px;
+    }
 </style>
 <body bgcolor=#ddd>
 <div class="topnav">
@@ -100,12 +105,15 @@ aside {
   <a href="https://www.atmos.albany.edu/student/abirnbaum/solar.html">Solar Images</a>
   <a class = "active" href="https://www.atmos.albany.edu/student/abirnbaum/discussion.html" >SWPC Discussion</a>
 </div>
-
-
-    
-    <object class='disc' data="https://www.atmos.albany.edu/student/abirnbaum/Discussion_Outlook/discussion.txt"></object>
-    <object class ='out' data="https://www.atmos.albany.edu/student/abirnbaum/Discussion_Outlook/advisory-outlook.txt"></object>
 </body>
+
+<body>
+    <div class = "row">
+        <div class = "column">
+    <object class='disc' data="https://www.atmos.albany.edu/student/abirnbaum/Discussion_Outlook/discussion.txt"></object></div>
+        <div class = "column">
+    <object class ='out' data="https://www.atmos.albany.edu/student/abirnbaum/Discussion_Outlook/advisory-outlook.txt"></object>
+    </div></body>
 <!-- script>
     var frame = document.getElementById("myFrame");
         frame.onload = function() {
